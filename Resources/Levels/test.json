@@ -1,0 +1,92 @@
+{
+    "name": "test",
+    "bpm": 69,
+    "length_min": 2,
+    "length_sec": 3,
+    "events": [
+        {
+            "beat_num": 0.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 1.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 2.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 3.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 0.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 1.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 2.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 3.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 4.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 5.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 6.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 7.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 8.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 9.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 10.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 10.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 11.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 11.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 11.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 11.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.0,
+            "type": "up"
+        }
+    ]
+}

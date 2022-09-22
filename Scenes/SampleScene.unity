@@ -152,7 +152,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323352751}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a35b1c119663c74ea72d17b3a920e85, type: 3}
   m_Name: 
@@ -249,8 +249,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music: {fileID: 0}
   num_beats: 0
-  beat_time: 0
+  sec_per_beat: 0
+  start_time: 0
   time_since_start: 0
+  current_time: 0
+  threshold: 0.05
+  current_time_in_beats: 0
+  materials:
+  - {fileID: 2100000, guid: 2fef755ebc77ee54ab7c1f2a2b9a134f, type: 2}
+  - {fileID: 2100000, guid: 958c263a10f46b94aa63d84a525c779c, type: 2}
+  - {fileID: 2100000, guid: 7833d6ea610bb6847ad7edf6c8ab86fd, type: 2}
+  - {fileID: 2100000, guid: d784ff9ee81ec974aae6ce2e6c6cd028, type: 2}
+  - {fileID: 2100000, guid: c4eb6947732242e4f9579249f87991cb, type: 2}
+  - {fileID: 2100000, guid: e97fe40bd0b7e2a4fbc787b5e52ec478, type: 2}
+  - {fileID: 2100000, guid: 724a6b8760ad8a34ea697a13e05bf608, type: 2}
 --- !u!82 &323352758
 AudioSource:
   m_ObjectHideFlags: 0
