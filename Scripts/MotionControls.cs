@@ -12,13 +12,18 @@ public class MotionControls : MonoBehaviour
     Vector3[] oldPos = { new Vector3 { x = 0, y = 0, z = 0 }, 
                          new Vector3 { x = 0, y = 0, z = 0} };
 
-    float speed = 10f;
+    public float[] limits = new float[4];
+
+    float xspeed = 20f;
+    float yspeed = 20f;
     float threshhold = 0.005f;
 
     
     void Start()
     {
         Debug.Log("dronesaber: Starting motion controls");
+        oldPos[0] = OVRInput.GetLocalControllerPosition(OVRInput.Controller.LTouch);
+        oldPos[1] = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
     }
 
     // Update is called once per frame
@@ -50,16 +55,16 @@ public class MotionControls : MonoBehaviour
 
     void MoveDrone(Vector2 leftDelta, Vector2 rightDelta, String action) {
         Vector3 newPos = transform.position;
-        if(action.Contains("right")) {
-            newPos.x += speed * Math.Abs((leftDelta.x + rightDelta.x) / 2);
-        } else if(action.Contains("left")) {
-            newPos.x -= speed * Math.Abs((leftDelta.x + rightDelta.x) / 2);
+        if(action.Contains("right") && transform.position.x < limits[1]) {
+            newPos.x += xspeed * Math.Abs((leftDelta.x + rightDelta.x) / 2);
+        } else if(action.Contains("left") && transform.position.x > limits[0]) {
+            newPos.x -= xspeed * Math.Abs((leftDelta.x + rightDelta.x) / 2);
         }
         
-        if(action.Contains("up")) {
-            newPos.y += speed * Math.Abs((leftDelta.y + rightDelta.y) / 2);
-        } else if(action.Contains("down")) {
-            newPos.y -= speed * Math.Abs((leftDelta.y + rightDelta.y) / 2);
+        if(action.Contains("up") && transform.position.y < limits[3]) {
+            newPos.y += yspeed * Math.Abs((leftDelta.y + rightDelta.y) / 2);
+        } else if(action.Contains("down") && transform.position.y > limits[2]) {
+            newPos.y -= yspeed * Math.Abs((leftDelta.y + rightDelta.y) / 2);
         }
 
         transform.position = newPos;
@@ -95,13 +100,15 @@ public class MotionControls : MonoBehaviour
 
         if(rightC.Contains("l") && leftC.Contains("l")) {
             actionString += "left";
-        } else if(rightC.Contains("r") && leftC.Contains("r")) {
+        } if(rightC.Contains("r") && leftC.Contains("r")) {
             actionString += "right";
-        } else if(rightC.Contains("d") && leftC.Contains("d")) {
-            actionString += "down";
-        } else if(rightC.Contains("u") && leftC.Contains("u")) {
+        } if(rightC.Contains("d") && leftC.Contains("d")) {
             actionString += "up";
-        } else actionString += "none";
+        } if(rightC.Contains("u") && leftC.Contains("u")) {
+            actionString += "down";
+        } if(actionString.Equals("")) {
+            actionString += "none";
+        }
         return actionString;
     }
 

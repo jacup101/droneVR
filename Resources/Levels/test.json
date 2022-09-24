@@ -73,11 +73,11 @@
             "type": "down"
         },
         {
-            "beat_num": 11.25,
+            "beat_num": 11.5,
             "type": "up"
         },
         {
-            "beat_num": 11.5,
+            "beat_num": 11.625,
             "type": "down"
         },
         {
@@ -85,7 +85,23 @@
             "type": "up"
         },
         {
-            "beat_num": 12.0,
+            "beat_num": 11.875,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.125,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.375,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.5,
             "type": "up"
         }
     ]
