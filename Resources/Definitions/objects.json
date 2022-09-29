@@ -1,0 +1,74 @@
+{
+    "definitions": "0 - Note, 1 - Center Hole, 2 - Horizontal Bar, 3 - Vertical Bar, 4 - Diag Bar L, 5 - Diag Bar R",
+    "coord_definitions": "-1 - lower limit, 0 - random, 1 - upper limit, 2 - mid",
+    "limits": [
+        -2,
+        2,
+        -2,
+        2
+    ],
+    "z": 25,
+    "distance": -20,
+    "types": [
+        {
+            "type": "left",
+            "index": 0,
+            "x": -1,
+            "y": 0
+        },
+        {
+            "type": "right",
+            "index": 0,
+            "x": 1,
+            "y": 0
+        },
+        {
+            "type": "down",
+            "index": 0,
+            "x": 0,
+            "y": -1
+        },
+        {
+            "type": "up",
+            "index": 0,
+            "x": 0,
+            "y": 1
+        },
+        {
+            "type": "mid",
+            "index": 0,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "type": "centerhole",
+            "index": 1,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "type": "hbar",
+            "index": 2,
+            "x": 2,
+            "y": 0
+        },
+        {
+            "type": "vbar",
+            "index": 3,
+            "x": 0,
+            "y": 2
+        },
+        {
+            "type": "dlbar",
+            "index": 4,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "type": "drbar",
+            "index": 5,
+            "x": 2,
+            "y": 2
+        }
+    ]
+}

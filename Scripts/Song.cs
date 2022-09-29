@@ -14,12 +14,14 @@ public class Song {
     public int length_sec;
     [SerializeField]
     public List<Beat> events;
+    public List<Beat> notes;
 
-    public Song(string name, int bpm, int lmin, int lsec, List<Beat> beats) {
+    public Song(string name, int bpm, int lmin, int lsec, List<Beat> beats, List<Beat> notes) {
         this.name = name;
         this.bpm = bpm;
         this.length_min = lmin;
         this.length_sec = lsec;
         this.events = beats;
+        this.notes = notes;
     }
 }

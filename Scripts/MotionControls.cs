@@ -16,14 +16,22 @@ public class MotionControls : MonoBehaviour
 
     float xspeed = 20f;
     float yspeed = 20f;
-    float threshhold = 0.005f;
+    float threshhold = 0.001f;
+
+    public int frameLimit = 10;
+
+    private int startFrame;
+    private int endFrame;
 
     
     void Start()
     {
         Debug.Log("dronesaber: Starting motion controls");
+        OVRInput.Update();
         oldPos[0] = OVRInput.GetLocalControllerPosition(OVRInput.Controller.LTouch);
         oldPos[1] = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
+        startFrame = Time.frameCount;
+        endFrame = startFrame + frameLimit;
     }
 
     // Update is called once per frame
@@ -34,15 +42,35 @@ public class MotionControls : MonoBehaviour
         Vector3 localLeftPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.LTouch);
         Vector3 localRightPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
 
+        // Allow some startup time to prevent the object disappearing on Oculus
+        Debug.LogFormat("dronesaber: {0} frame", Time.frameCount);
+        if(startFrame <  endFrame) {
+            oldPos[0] = localLeftPos;
+            oldPos[1] = localRightPos;
+            Debug.LogFormat("x {0} y {1} z {2}", transform.position.x, transform.position.y, transform.position.z);
+            startFrame ++;
+        }
+
         // Get the deltas
         Vector2 leftDelta = GetDifference(localLeftPos, oldPos[0]);
         Vector2 rightDelta = GetDifference(localRightPos, oldPos[1]);
+                
+        // Compat Layer, conditionally compiled
+        #if UNITY_EDITOR
+        float yin = Input.GetAxis("Vertical");
+        float xin = Input.GetAxis("Horizontal");
+        leftDelta = new Vector2(xin, yin);
+        rightDelta = new Vector2(xin, yin);
+        xspeed = .2f;
+        yspeed = .2f;
+        #endif 
         
         String actionString = GetAction(rightDelta, leftDelta);
 
         // Chatty, disable for prod
         // Print the deltas
-        Debug.LogFormat("dronesaber: actions to take: {0}", actionString);
+        // Debug.LogFormat("dronesaber: actions to take: {0}", actionString);  
+        // Debug.LogFormat("dronesaber: positionDSTag x: {0} y: {1}", transform.position.x, transform.position.y);
 
         MoveDrone(leftDelta, rightDelta, actionString);
 
@@ -94,9 +122,6 @@ public class MotionControls : MonoBehaviour
         String actionString = "";
         String rightC = SpecifyDir(right);
         String leftC = SpecifyDir(left);
-
-        print(rightC);
-        print(leftC);
 
         if(rightC.Contains("l") && leftC.Contains("l")) {
             actionString += "left";

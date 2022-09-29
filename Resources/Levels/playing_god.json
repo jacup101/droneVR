@@ -21,22 +21,6 @@
             "type": "up"
         },
         {
-            "beat_num": 0.0,
-            "type": "down"
-        },
-        {
-            "beat_num": 1.0,
-            "type": "up"
-        },
-        {
-            "beat_num": 2.0,
-            "type": "down"
-        },
-        {
-            "beat_num": 3.0,
-            "type": "up"
-        },
-        {
             "beat_num": 4.0,
             "type": "down"
         },
@@ -99,6 +83,80 @@
         {
             "beat_num": 12.375,
             "type": "up"
+        },
+        {
+            "beat_num": 12.5,
+            "type": "up"
+        }
+    ],
+    "notes": [
+        {
+            "beat_num": 3.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 4.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 5.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 6.0,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 7.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 8.0,
+            "type": "drbar"
+        },
+        {
+            "beat_num": 9.0,
+            "type": "dlbar"
+        },
+        {
+            "beat_num": 10.0,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 10.5,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 11.0,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 11.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 11.625,
+            "type": "mid"
+        },
+        {
+            "beat_num": 11.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 11.875,
+            "type": "up"
+        },
+        {
+            "beat_num": 12.125,
+            "type": "right"
+        },
+        {
+            "beat_num": 12.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 12.375,
+            "type": "mid"
         },
         {
             "beat_num": 12.5,

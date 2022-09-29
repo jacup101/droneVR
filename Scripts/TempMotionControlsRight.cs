@@ -22,8 +22,6 @@ public class TempMotionControlsRight : MonoBehaviour
         Vector3 localLeftPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
         //Debug.Log("dronesaber: " + localLeftPos);
 
-        float speed = 10;
-
         float deltaX = localLeftPos.x - oldPos.x;
         float deltaY = localLeftPos.y - oldPos.y;
 
