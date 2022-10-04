@@ -18,7 +18,7 @@ public class RhythmSystem : MonoBehaviour
     public float current_time_in_beats;
     public GameObject[] prefabs;
     public float[] limits = new float[4];
-    public float num_beats_diff = 3f;
+    public float num_beats_diff = 2f;
     public Material[] materials;
 
     
@@ -28,7 +28,8 @@ public class RhythmSystem : MonoBehaviour
         // Load the music component from the objects
         music = GetComponent<AudioSource>();
         // Load Song
-        song = LoadSongJson("playing_god");
+        // TODO: Define the speed
+        song = LoadSongJson("abc");
         // Load note definitions
         noteDefs = LoadDefJson("objects");
         noteDefs.ConstructDict();

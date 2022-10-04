@@ -47,7 +47,7 @@ public class MotionControls : MonoBehaviour
         if(startFrame <  endFrame) {
             oldPos[0] = localLeftPos;
             oldPos[1] = localRightPos;
-            Debug.LogFormat("x {0} y {1} z {2}", transform.position.x, transform.position.y, transform.position.z);
+            // Debug.LogFormat("x {0} y {1} z {2}", transform.position.x, transform.position.y, transform.position.z);
             startFrame ++;
         }
 

@@ -1,0 +1,3657 @@
+{
+    "name": "abc",
+    "bpm": 140,
+    "lenth_min": 2,
+    "length_sec": 32,
+    "events": [],
+    "notes": [
+        {
+            "beat_num": 2,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 2.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 3,
+            "type": "right"
+        },
+        {
+            "beat_num": 3.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 5,
+            "type": "right"
+        },
+        {
+            "beat_num": 6,
+            "type": "left"
+        },
+        {
+            "beat_num": 6.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 7.75,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 8.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 10,
+            "type": "right"
+        },
+        {
+            "beat_num": 10.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 11,
+            "type": "up"
+        },
+        {
+            "beat_num": 11.5,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 12,
+            "type": "right"
+        },
+        {
+            "beat_num": 12.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 13.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 15,
+            "type": "left"
+        },
+        {
+            "beat_num": 15.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 15.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 16.25,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 16.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 17.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 18,
+            "type": "left"
+        },
+        {
+            "beat_num": 18.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 18.5,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 18.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 19,
+            "type": "down"
+        },
+        {
+            "beat_num": 19.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 20,
+            "type": "mid"
+        },
+        {
+            "beat_num": 20.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 20.5,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 20.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 21,
+            "type": "up"
+        },
+        {
+            "beat_num": 21.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 21.5,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 21.75,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 22,
+            "type": "left"
+        },
+        {
+            "beat_num": 22.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 22.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 22.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 23.0,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 23.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 23.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 23.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 24.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 24.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 24.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 24.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 25.0,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 25.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 25.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 25.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 26.0,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 26.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 26.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 27,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 28,
+            "type": "left"
+        },
+        {
+            "beat_num": 28.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 29,
+            "type": "down"
+        },
+        {
+            "beat_num": 30,
+            "type": "right"
+        },
+        {
+            "beat_num": 30.25,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 31,
+            "type": "up"
+        },
+        {
+            "beat_num": 31.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 31.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 32.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 32.5,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 33,
+            "type": "mid"
+        },
+        {
+            "beat_num": 34,
+            "type": "down"
+        },
+        {
+            "beat_num": 34.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 34.5,
+            "type": "vbar"
+        },
+        {
+            "beat_num": 35,
+            "type": "left"
+        },
+        {
+            "beat_num": 35.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 35.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 36,
+            "type": "up"
+        },
+        {
+            "beat_num": 37,
+            "type": "right"
+        },
+        {
+            "beat_num": 37.75,
+            "type": "dlbar"
+        },
+        {
+            "beat_num": 38,
+            "type": "right"
+        },
+        {
+            "beat_num": 38.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 38.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 38.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 39,
+            "type": "drbar"
+        },
+        {
+            "beat_num": 39.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 40,
+            "type": "down"
+        },
+        {
+            "beat_num": 41,
+            "type": "left"
+        },
+        {
+            "beat_num": 41.25,
+            "type": "hbar"
+        },
+        {
+            "beat_num": 41.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 41.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 42.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 42.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 42.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 43,
+            "type": "down"
+        },
+        {
+            "beat_num": 43.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 44,
+            "type": "left"
+        },
+        {
+            "beat_num": 44.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 44.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 45.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 45.5,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 46,
+            "type": "down"
+        },
+        {
+            "beat_num": 47,
+            "type": "mid"
+        },
+        {
+            "beat_num": 48,
+            "type": "left"
+        },
+        {
+            "beat_num": 48.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 49,
+            "type": "left"
+        },
+        {
+            "beat_num": 49.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 49.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 50,
+            "type": "right"
+        },
+        {
+            "beat_num": 51,
+            "type": "mid"
+        },
+        {
+            "beat_num": 51.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 52,
+            "type": "left"
+        },
+        {
+            "beat_num": 52.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 52.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 53.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 54,
+            "type": "down"
+        },
+        {
+            "beat_num": 55,
+            "type": "left"
+        },
+        {
+            "beat_num": 55.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 56,
+            "type": "right"
+        },
+        {
+            "beat_num": 56.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 56.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 57.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 57.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 58,
+            "type": "down"
+        },
+        {
+            "beat_num": 58.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 58.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 59.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 59.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 60,
+            "type": "left"
+        },
+        {
+            "beat_num": 60.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 60.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 61,
+            "type": "mid"
+        },
+        {
+            "beat_num": 61.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 62,
+            "type": "left"
+        },
+        {
+            "beat_num": 63,
+            "type": "up"
+        },
+        {
+            "beat_num": 63.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 63.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 64,
+            "type": "mid"
+        },
+        {
+            "beat_num": 64.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 65,
+            "type": "mid"
+        },
+        {
+            "beat_num": 66,
+            "type": "right"
+        },
+        {
+            "beat_num": 66.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 66.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 67.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 67.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 68,
+            "type": "up"
+        },
+        {
+            "beat_num": 69,
+            "type": "mid"
+        },
+        {
+            "beat_num": 69.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 69.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 70.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 70.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 71.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 72,
+            "type": "down"
+        },
+        {
+            "beat_num": 75,
+            "type": "down"
+        },
+        {
+            "beat_num": 76,
+            "type": "left"
+        },
+        {
+            "beat_num": 76.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 77,
+            "type": "up"
+        },
+        {
+            "beat_num": 78,
+            "type": "left"
+        },
+        {
+            "beat_num": 78.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 79,
+            "type": "down"
+        },
+        {
+            "beat_num": 79.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 80,
+            "type": "right"
+        },
+        {
+            "beat_num": 80.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 81,
+            "type": "right"
+        },
+        {
+            "beat_num": 82,
+            "type": "mid"
+        },
+        {
+            "beat_num": 83,
+            "type": "right"
+        },
+        {
+            "beat_num": 83.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 84,
+            "type": "right"
+        },
+        {
+            "beat_num": 84.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 85,
+            "type": "down"
+        },
+        {
+            "beat_num": 87,
+            "type": "left"
+        },
+        {
+            "beat_num": 87.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 88,
+            "type": "right"
+        },
+        {
+            "beat_num": 88.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 89,
+            "type": "right"
+        },
+        {
+            "beat_num": 90,
+            "type": "mid"
+        },
+        {
+            "beat_num": 90.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 91,
+            "type": "up"
+        },
+        {
+            "beat_num": 91.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 92,
+            "type": "mid"
+        },
+        {
+            "beat_num": 92.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 93.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 94.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 95.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 95.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 95.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 96.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 96.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 97,
+            "type": "mid"
+        },
+        {
+            "beat_num": 97.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 97.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 98.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 98.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 98.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 99.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 99.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 99.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 99.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 100,
+            "type": "down"
+        },
+        {
+            "beat_num": 100.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 100.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 101,
+            "type": "right"
+        },
+        {
+            "beat_num": 101.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 101.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 101.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 102,
+            "type": "up"
+        },
+        {
+            "beat_num": 102.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 102.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 102.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 103.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 103.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 103.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 103.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 104.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 104.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 104.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 104.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 105.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 105.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 105.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 105.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 106.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 106.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 106.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 106.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 107.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 107.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 107.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 107.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 108.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 108.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 108.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 108.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 109.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 109.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 110,
+            "type": "mid"
+        },
+        {
+            "beat_num": 110.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 111.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 112,
+            "type": "up"
+        },
+        {
+            "beat_num": 113,
+            "type": "left"
+        },
+        {
+            "beat_num": 113.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 114,
+            "type": "up"
+        },
+        {
+            "beat_num": 114.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 116,
+            "type": "left"
+        },
+        {
+            "beat_num": 116.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 117.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 118,
+            "type": "down"
+        },
+        {
+            "beat_num": 118.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 119.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 120.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 120.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 121.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 122,
+            "type": "mid"
+        },
+        {
+            "beat_num": 122.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 124,
+            "type": "mid"
+        },
+        {
+            "beat_num": 124.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 124.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 125.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 125.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 126,
+            "type": "left"
+        },
+        {
+            "beat_num": 127,
+            "type": "right"
+        },
+        {
+            "beat_num": 128,
+            "type": "mid"
+        },
+        {
+            "beat_num": 128.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 128.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 129.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 129.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 130.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 131,
+            "type": "up"
+        },
+        {
+            "beat_num": 131.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 132,
+            "type": "right"
+        },
+        {
+            "beat_num": 132.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 132.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 133.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 134,
+            "type": "left"
+        },
+        {
+            "beat_num": 135,
+            "type": "mid"
+        },
+        {
+            "beat_num": 135.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 136,
+            "type": "mid"
+        },
+        {
+            "beat_num": 136.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 136.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 137.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 137.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 138,
+            "type": "mid"
+        },
+        {
+            "beat_num": 138.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 138.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 139,
+            "type": "up"
+        },
+        {
+            "beat_num": 139.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 139.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 139.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 140.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 140.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 140.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 140.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 141.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 141.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 141.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 141.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 142,
+            "type": "left"
+        },
+        {
+            "beat_num": 143,
+            "type": "up"
+        },
+        {
+            "beat_num": 143.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 143.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 144,
+            "type": "up"
+        },
+        {
+            "beat_num": 144.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 145,
+            "type": "up"
+        },
+        {
+            "beat_num": 146,
+            "type": "up"
+        },
+        {
+            "beat_num": 146.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 146.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 147,
+            "type": "down"
+        },
+        {
+            "beat_num": 147.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 148,
+            "type": "down"
+        },
+        {
+            "beat_num": 148.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 149,
+            "type": "down"
+        },
+        {
+            "beat_num": 149.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 149.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 150,
+            "type": "mid"
+        },
+        {
+            "beat_num": 150.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 150.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 151.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 151.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 152.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 153.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 154,
+            "type": "down"
+        },
+        {
+            "beat_num": 155,
+            "type": "down"
+        },
+        {
+            "beat_num": 155.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 156,
+            "type": "up"
+        },
+        {
+            "beat_num": 156.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 156.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 157,
+            "type": "down"
+        },
+        {
+            "beat_num": 157.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 158,
+            "type": "left"
+        },
+        {
+            "beat_num": 158.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 158.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 159,
+            "type": "left"
+        },
+        {
+            "beat_num": 159.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 159.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 160,
+            "type": "left"
+        },
+        {
+            "beat_num": 160.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 160.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 161,
+            "type": "up"
+        },
+        {
+            "beat_num": 161.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 162,
+            "type": "down"
+        },
+        {
+            "beat_num": 162.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 163,
+            "type": "up"
+        },
+        {
+            "beat_num": 163.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 163.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 164.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 164.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 164.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 165,
+            "type": "left"
+        },
+        {
+            "beat_num": 165.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 166,
+            "type": "up"
+        },
+        {
+            "beat_num": 166.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 167.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 167.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 168,
+            "type": "down"
+        },
+        {
+            "beat_num": 168.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 168.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 169,
+            "type": "left"
+        },
+        {
+            "beat_num": 169.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 170,
+            "type": "left"
+        },
+        {
+            "beat_num": 170.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 170.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 171,
+            "type": "mid"
+        },
+        {
+            "beat_num": 171.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 171.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 172,
+            "type": "down"
+        },
+        {
+            "beat_num": 172.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 172.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 173.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 173.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 174.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 175,
+            "type": "left"
+        },
+        {
+            "beat_num": 175.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 175.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 175.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 176,
+            "type": "left"
+        },
+        {
+            "beat_num": 176.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 176.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 177,
+            "type": "down"
+        },
+        {
+            "beat_num": 177.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 177.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 178,
+            "type": "mid"
+        },
+        {
+            "beat_num": 178.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 178.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 178.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 179.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 179.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 179.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 179.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 180,
+            "type": "mid"
+        },
+        {
+            "beat_num": 180.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 180.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 180.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 181.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 181.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 181.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 181.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 182.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 182.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 182.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 182.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 183.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 183.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 183.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 183.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 184.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 184.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 184.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 184.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 185.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 185.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 185.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 185.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 186.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 186.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 186.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 186.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 187.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 187.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 187.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 187.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 188.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 188.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 188.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 188.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 189.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 189.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 189.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 189.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 190.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 190.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 190.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 191,
+            "type": "right"
+        },
+        {
+            "beat_num": 191.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 192,
+            "type": "right"
+        },
+        {
+            "beat_num": 192.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 193,
+            "type": "left"
+        },
+        {
+            "beat_num": 194,
+            "type": "down"
+        },
+        {
+            "beat_num": 194.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 195,
+            "type": "mid"
+        },
+        {
+            "beat_num": 195.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 196,
+            "type": "down"
+        },
+        {
+            "beat_num": 197,
+            "type": "left"
+        },
+        {
+            "beat_num": 197.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 198,
+            "type": "left"
+        },
+        {
+            "beat_num": 198.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 199,
+            "type": "right"
+        },
+        {
+            "beat_num": 200,
+            "type": "left"
+        },
+        {
+            "beat_num": 200.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 200.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 201,
+            "type": "right"
+        },
+        {
+            "beat_num": 201.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 201.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 202,
+            "type": "right"
+        },
+        {
+            "beat_num": 202.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 203,
+            "type": "right"
+        },
+        {
+            "beat_num": 204,
+            "type": "mid"
+        },
+        {
+            "beat_num": 204.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 204.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 205,
+            "type": "mid"
+        },
+        {
+            "beat_num": 205.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 205.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 206,
+            "type": "mid"
+        },
+        {
+            "beat_num": 206.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 207,
+            "type": "right"
+        },
+        {
+            "beat_num": 207.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 207.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 208,
+            "type": "down"
+        },
+        {
+            "beat_num": 208.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 208.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 209,
+            "type": "down"
+        },
+        {
+            "beat_num": 209.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 210,
+            "type": "right"
+        },
+        {
+            "beat_num": 210.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 210.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 211,
+            "type": "up"
+        },
+        {
+            "beat_num": 211.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 211.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 212,
+            "type": "right"
+        },
+        {
+            "beat_num": 212.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 213,
+            "type": "left"
+        },
+        {
+            "beat_num": 213.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 213.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 214,
+            "type": "down"
+        },
+        {
+            "beat_num": 214.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 214.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 215,
+            "type": "mid"
+        },
+        {
+            "beat_num": 215.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 216,
+            "type": "left"
+        },
+        {
+            "beat_num": 216.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 216.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 217,
+            "type": "down"
+        },
+        {
+            "beat_num": 217.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 217.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 218,
+            "type": "left"
+        },
+        {
+            "beat_num": 218.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 219,
+            "type": "mid"
+        },
+        {
+            "beat_num": 219.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 220,
+            "type": "down"
+        },
+        {
+            "beat_num": 220.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 220.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 221,
+            "type": "right"
+        },
+        {
+            "beat_num": 221.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 221.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 222.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 222.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 222.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 223,
+            "type": "down"
+        },
+        {
+            "beat_num": 223.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 223.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 224,
+            "type": "up"
+        },
+        {
+            "beat_num": 224.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 225,
+            "type": "down"
+        },
+        {
+            "beat_num": 225.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 225.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 226,
+            "type": "mid"
+        },
+        {
+            "beat_num": 226.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 227,
+            "type": "left"
+        },
+        {
+            "beat_num": 227.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 227.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 228,
+            "type": "down"
+        },
+        {
+            "beat_num": 228.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 229,
+            "type": "right"
+        },
+        {
+            "beat_num": 229.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 230,
+            "type": "left"
+        },
+        {
+            "beat_num": 230.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 231,
+            "type": "up"
+        },
+        {
+            "beat_num": 231.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 231.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 232,
+            "type": "down"
+        },
+        {
+            "beat_num": 232.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 233,
+            "type": "down"
+        },
+        {
+            "beat_num": 233.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 233.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 234,
+            "type": "up"
+        },
+        {
+            "beat_num": 234.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 234.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 235,
+            "type": "up"
+        },
+        {
+            "beat_num": 235.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 235.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 236,
+            "type": "up"
+        },
+        {
+            "beat_num": 236.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 236.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 237.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 237.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 238,
+            "type": "down"
+        },
+        {
+            "beat_num": 238.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 239,
+            "type": "up"
+        },
+        {
+            "beat_num": 239.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 239.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 239.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 240,
+            "type": "up"
+        },
+        {
+            "beat_num": 240.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 240.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 241,
+            "type": "up"
+        },
+        {
+            "beat_num": 241.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 241.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 242,
+            "type": "down"
+        },
+        {
+            "beat_num": 242.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 242.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 242.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 243,
+            "type": "down"
+        },
+        {
+            "beat_num": 243.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 243.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 243.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 244,
+            "type": "right"
+        },
+        {
+            "beat_num": 244.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 244.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 244.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 245.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 245.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 245.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 245.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 246.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 246.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 246.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 246.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 247.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 247.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 247.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 247.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 248.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 248.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 248.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 248.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 249.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 249.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 249.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 249.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 250.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 250.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 250.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 250.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 251.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 251.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 251.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 251.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 252.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 252.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 252.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 252.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 253.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 253.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 253.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 253.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 254.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 254.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 254.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 254.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 255.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 255.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 255.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 255.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 256,
+            "type": "right"
+        },
+        {
+            "beat_num": 256.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 257,
+            "type": "down"
+        },
+        {
+            "beat_num": 257.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 257.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 258,
+            "type": "left"
+        },
+        {
+            "beat_num": 258.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 259,
+            "type": "mid"
+        },
+        {
+            "beat_num": 259.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 259.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 259.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 260,
+            "type": "right"
+        },
+        {
+            "beat_num": 260.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 261,
+            "type": "mid"
+        },
+        {
+            "beat_num": 261.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 262,
+            "type": "mid"
+        },
+        {
+            "beat_num": 262.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 263,
+            "type": "down"
+        },
+        {
+            "beat_num": 263.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 263.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 264,
+            "type": "down"
+        },
+        {
+            "beat_num": 264.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 265,
+            "type": "up"
+        },
+        {
+            "beat_num": 265.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 265.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 266,
+            "type": "mid"
+        },
+        {
+            "beat_num": 266.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 266.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 267,
+            "type": "down"
+        },
+        {
+            "beat_num": 267.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 267.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 267.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 268,
+            "type": "down"
+        },
+        {
+            "beat_num": 268.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 268.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 268.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 269,
+            "type": "mid"
+        },
+        {
+            "beat_num": 269.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 270,
+            "type": "right"
+        },
+        {
+            "beat_num": 270.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 271,
+            "type": "right"
+        },
+        {
+            "beat_num": 271.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 271.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 271.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 272,
+            "type": "down"
+        },
+        {
+            "beat_num": 272.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 272.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 272.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 273,
+            "type": "left"
+        },
+        {
+            "beat_num": 273.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 274,
+            "type": "down"
+        },
+        {
+            "beat_num": 274.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 274.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 274.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 275,
+            "type": "mid"
+        },
+        {
+            "beat_num": 275.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 276,
+            "type": "up"
+        },
+        {
+            "beat_num": 276.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 276.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 276.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 277.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 277.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 277.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 277.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 278.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 278.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 278.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 278.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 279.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 279.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 279.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 279.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 280.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 280.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 280.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 280.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 281.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 281.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 281.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 281.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 282.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 282.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 282.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 282.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 283.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 283.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 283.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 283.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 284.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 284.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 284.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 284.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 285.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 285.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 285.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 285.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 286.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 286.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 286.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 286.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 287.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 287.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 287.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 287.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 288.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 288.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 288.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 288.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 289.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 289.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 289.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 290,
+            "type": "down"
+        },
+        {
+            "beat_num": 290.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 290.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 291,
+            "type": "down"
+        },
+        {
+            "beat_num": 291.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 291.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 291.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 292.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 292.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 292.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 292.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 293,
+            "type": "down"
+        },
+        {
+            "beat_num": 293.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 294,
+            "type": "mid"
+        },
+        {
+            "beat_num": 294.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 295,
+            "type": "mid"
+        },
+        {
+            "beat_num": 295.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 295.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 296,
+            "type": "down"
+        },
+        {
+            "beat_num": 296.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 296.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 297,
+            "type": "right"
+        },
+        {
+            "beat_num": 297.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 297.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 298,
+            "type": "down"
+        },
+        {
+            "beat_num": 298.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 298.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 299.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 299.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 299.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 299.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 300.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 300.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 300.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 300.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 301.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 301.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 301.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 301.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 302.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 302.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 302.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 302.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 303.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 303.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 303.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 303.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 304.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 304.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 304.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 304.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 305.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 305.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 305.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 305.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 306.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 306.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 306.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 306.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 307.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 307.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 307.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 307.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 308.0,
+            "type": "left"
+        },
+        {
+            "beat_num": 308.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 308.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 308.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 309.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 309.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 309.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 309.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 310.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 310.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 310.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 310.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 311.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 311.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 311.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 311.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 312.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 312.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 312.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 312.75,
+            "type": "right"
+        },
+        {
+            "beat_num": 313.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 313.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 313.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 313.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 314.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 314.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 314.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 314.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 315.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 315.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 315.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 315.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 316.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 316.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 316.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 316.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 317.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 317.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 317.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 317.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 318.0,
+            "type": "up"
+        },
+        {
+            "beat_num": 318.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 318.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 318.75,
+            "type": "mid"
+        },
+        {
+            "beat_num": 319.0,
+            "type": "right"
+        },
+        {
+            "beat_num": 319.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 319.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 319.75,
+            "type": "left"
+        },
+        {
+            "beat_num": 320.0,
+            "type": "down"
+        },
+        {
+            "beat_num": 320.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 320.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 320.75,
+            "type": "up"
+        },
+        {
+            "beat_num": 321.0,
+            "type": "mid"
+        },
+        {
+            "beat_num": 321.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 321.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 322,
+            "type": "right"
+        },
+        {
+            "beat_num": 322.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 322.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 323,
+            "type": "up"
+        },
+        {
+            "beat_num": 323.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 323.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 324,
+            "type": "down"
+        },
+        {
+            "beat_num": 324.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 325,
+            "type": "left"
+        },
+        {
+            "beat_num": 325.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 325.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 326,
+            "type": "right"
+        },
+        {
+            "beat_num": 326.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 326.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 327,
+            "type": "left"
+        },
+        {
+            "beat_num": 327.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 328,
+            "type": "right"
+        },
+        {
+            "beat_num": 328.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 328.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 329,
+            "type": "left"
+        },
+        {
+            "beat_num": 329.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 329.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 330,
+            "type": "up"
+        },
+        {
+            "beat_num": 330.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 331,
+            "type": "mid"
+        },
+        {
+            "beat_num": 331.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 332,
+            "type": "left"
+        },
+        {
+            "beat_num": 332.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 332.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 332.75,
+            "type": "down"
+        },
+        {
+            "beat_num": 333,
+            "type": "down"
+        },
+        {
+            "beat_num": 333.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 333.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 334,
+            "type": "down"
+        },
+        {
+            "beat_num": 334.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 335,
+            "type": "up"
+        },
+        {
+            "beat_num": 335.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 335.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 336,
+            "type": "down"
+        },
+        {
+            "beat_num": 336.25,
+            "type": "left"
+        },
+        {
+            "beat_num": 336.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 337,
+            "type": "right"
+        },
+        {
+            "beat_num": 337.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 338,
+            "type": "right"
+        },
+        {
+            "beat_num": 338.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 338.5,
+            "type": "up"
+        },
+        {
+            "beat_num": 339,
+            "type": "up"
+        },
+        {
+            "beat_num": 339.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 339.5,
+            "type": "left"
+        },
+        {
+            "beat_num": 340,
+            "type": "mid"
+        },
+        {
+            "beat_num": 340.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 341,
+            "type": "mid"
+        },
+        {
+            "beat_num": 341.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 341.5,
+            "type": "right"
+        },
+        {
+            "beat_num": 342,
+            "type": "right"
+        },
+        {
+            "beat_num": 342.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 342.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 343,
+            "type": "right"
+        },
+        {
+            "beat_num": 343.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 344,
+            "type": "mid"
+        },
+        {
+            "beat_num": 344.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 344.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 345,
+            "type": "down"
+        },
+        {
+            "beat_num": 345.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 345.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 346,
+            "type": "left"
+        },
+        {
+            "beat_num": 346.25,
+            "type": "down"
+        },
+        {
+            "beat_num": 347,
+            "type": "up"
+        },
+        {
+            "beat_num": 347.25,
+            "type": "mid"
+        },
+        {
+            "beat_num": 348,
+            "type": "left"
+        },
+        {
+            "beat_num": 348.25,
+            "type": "up"
+        },
+        {
+            "beat_num": 348.5,
+            "type": "mid"
+        },
+        {
+            "beat_num": 349,
+            "type": "down"
+        },
+        {
+            "beat_num": 349.25,
+            "type": "right"
+        },
+        {
+            "beat_num": 353.25,
+            "type": "up"
+        }
+    ]
+}
