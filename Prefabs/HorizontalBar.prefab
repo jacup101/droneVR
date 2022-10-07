@@ -57,6 +57,8 @@ MonoBehaviour:
   spawnAnim: 1
   rotationSpeed: 1
   totRot: 0
+  allObjects: []
+  animType: 
 --- !u!1 &8358692208609150801
 GameObject:
   m_ObjectHideFlags: 0

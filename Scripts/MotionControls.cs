@@ -22,6 +22,7 @@ public class MotionControls : MonoBehaviour
 
     private int startFrame;
     private int endFrame;
+    public bool dead = false;
 
     
     void Start()
@@ -43,7 +44,7 @@ public class MotionControls : MonoBehaviour
         Vector3 localRightPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
 
         // Allow some startup time to prevent the object disappearing on Oculus
-        Debug.LogFormat("dronesaber: {0} frame", Time.frameCount);
+        // Debug.LogFormat("dronesaber: {0} frame", Time.frameCount);
         if(startFrame <  endFrame) {
             oldPos[0] = localLeftPos;
             oldPos[1] = localRightPos;
@@ -71,8 +72,10 @@ public class MotionControls : MonoBehaviour
         // Print the deltas
         // Debug.LogFormat("dronesaber: actions to take: {0}", actionString);  
         // Debug.LogFormat("dronesaber: positionDSTag x: {0} y: {1}", transform.position.x, transform.position.y);
-
-        MoveDrone(leftDelta, rightDelta, actionString);
+        if(!dead) {
+            MoveDrone(leftDelta, rightDelta, actionString);
+        }
+        
 
         // transform.position = new Vector3(transform.position.x + speed * deltaX, transform.position.y + speed * deltaY, transform.position.z);
 
@@ -154,5 +157,9 @@ public class MotionControls : MonoBehaviour
         }
 
         return dirString;
+    }
+
+    public void Die() {
+        this.dead = true;
     }
 }

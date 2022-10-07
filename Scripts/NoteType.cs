@@ -13,6 +13,8 @@ public class NoteType {
     public int x;
     [SerializeField]
     public int y;
+    [SerializeField]
+    public string anim;
 
     public NoteType(string type, int index, int x, int y) {
         this.type = type;

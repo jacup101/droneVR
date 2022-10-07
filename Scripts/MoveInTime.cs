@@ -15,8 +15,12 @@ public class MoveInTime : MonoBehaviour {
     public bool moving;
     public bool transformed;
     public bool spawnAnim = false;
-    public float rotationSpeed = 5f;
+    public float rotationSpeed = 1f;
     public float totRot = 0f;
+    // List of game objects to be set by the rhythm system
+    public List<GameObject> allObjects = null;
+    // Animation Stuff
+    public string animType;
 
 
     // Start is called before the first frame update
@@ -27,7 +31,7 @@ public class MoveInTime : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(moving) {
             if(timer <= seconds) {
@@ -35,26 +39,41 @@ public class MoveInTime : MonoBehaviour {
                 percent = timer / seconds;
 
                 transform.position = start_point + diff * percent;
+                Animate();
             } else {
                 if(!transformed) {
                     // Transform();
                 }
                 transform.position = transform.position + new Vector3(0, 0, -1 * speed);
+                // Destroy condition
                 if (transform.position.z < 0) {
+                    allObjects.Remove(gameObject);
                     Destroy(gameObject);
                 }
             }
         }
         if(!spawnAnim) {
             int rand = Random.Range(0, 4);
-            float xSpeed = rotationSpeed;
+            /*float xSpeed = rotationSpeed;
             float zSpeed = rotationSpeed;
 
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x + xSpeed, 0,  transform.rotation.eulerAngles.z + zSpeed);
             totRot += rotationSpeed;
             if(totRot > 180) {
                 spawnAnim = true;
-            }
+            } */
+        }
+    }
+    void Animate() {
+        float xSpeed = rotationSpeed;
+        float zSpeed = rotationSpeed;
+        // X is left right, Z is front back
+        if(animType == "rotateX") {
+            transform.Rotate(new Vector3(xSpeed, 0, 0), Space.Self);
+        } if(animType == "rotateZ") {
+            transform.Rotate(new Vector3(0, 0, zSpeed), Space.Self);
+        } if(animType == "rotateXZ") {
+            transform.Rotate(new Vector3(xSpeed, 0, zSpeed), Space.Self);
         }
     }
 
@@ -67,11 +86,13 @@ public class MoveInTime : MonoBehaviour {
         transformed = true;
     }
 
-    public void Setup(float seconds, Vector3 end_point) {
+    public void Setup(float seconds, Vector3 end_point, string anim, List<GameObject> allObj) {
         this.seconds = seconds;
         this.start_point = transform.position;
         this.end_point = end_point;
         this.diff = this.end_point - this.start_point;
         this.moving = true;
+        this.allObjects = allObj;
+        this.animType = anim;
     }
 }

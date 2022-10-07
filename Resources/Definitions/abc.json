@@ -7,69 +7,91 @@
         -2,
         2
     ],
-    "z": 25,
-    "distance": -20,
-    "beats": 2,
+    "z": 50,
+    "distance": -45,
+    "beats": 4,
+    "animTypes": [
+        "rotateX",
+        "rotateZ",
+        "rotateXZ"
+    ],
     "types": [
         {
             "type": "left",
             "index": 0,
             "x": -1,
-            "y": 0
+            "y": 0,
+            "anim": "random"
         },
         {
             "type": "right",
             "index": 0,
             "x": 1,
-            "y": 0
+            "y": 0,
+            "anim": "random"
         },
         {
             "type": "down",
             "index": 0,
             "x": 0,
-            "y": -1
+            "y": -1,
+            "anim": "random"
         },
         {
             "type": "up",
             "index": 0,
             "x": 0,
-            "y": 1
+            "y": 1,
+            "anim": "random"
         },
         {
             "type": "mid",
             "index": 0,
             "x": 0,
-            "y": 0
+            "y": 0,
+            "anim": "random"
         },
         {
             "type": "centerhole",
             "index": 1,
             "x": 2,
-            "y": 2
+            "y": 2,
+            "anim": "none"
         },
         {
             "type": "hbar",
             "index": 2,
             "x": 2,
-            "y": 0
+            "y": 0,
+            "anim": "none"
         },
         {
             "type": "vbar",
             "index": 3,
             "x": 0,
-            "y": 2
+            "y": 2,
+            "anim": "none"
         },
         {
             "type": "dlbar",
             "index": 4,
             "x": 2,
-            "y": 2
+            "y": 2,
+            "anim": "none"
         },
         {
             "type": "drbar",
             "index": 5,
             "x": 2,
-            "y": 2
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "spinbar",
+            "index": 2,
+            "x": 2,
+            "y": 0,
+            "anim": "rotateZ"
         }
     ]
 }

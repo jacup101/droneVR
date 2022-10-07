@@ -93,9 +93,6 @@ def on_press(key):
             playing = False
         print("idk")
 
-
-
-
 listener = keyboard.Listener(
    on_press=on_press,
     )

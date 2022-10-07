@@ -43,7 +43,7 @@
         },
         {
             "beat_num": 10,
-            "type": "right"
+            "type": "spinbar"
         },
         {
             "beat_num": 10.5,
@@ -95,7 +95,7 @@
         },
         {
             "beat_num": 18,
-            "type": "left"
+            "type": "spinbar"
         },
         {
             "beat_num": 18.25,

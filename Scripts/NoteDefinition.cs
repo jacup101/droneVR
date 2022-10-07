@@ -21,6 +21,10 @@ public class NoteDefinition {
     public int z;
     [SerializeField]
     public int distance;
+    [SerializeField]
+    public int beats;
+    [SerializeField]
+    public List<string> animTypes;
     public Dictionary<string, NoteType> noteTypeDict;
 
     public NoteDefinition(int z, int distance, List<int> limits, List<NoteType> types) {
