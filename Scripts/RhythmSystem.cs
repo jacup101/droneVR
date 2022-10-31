@@ -24,6 +24,13 @@ public class RhythmSystem : MonoBehaviour
     public Material[] materials;
     // Spawned in related fields
     public List<GameObject> inWorldObjects;
+    // Event related fields
+    public CorridorHandler ch;
+    // Bools to control things
+    [SerializeField]
+    bool spawnNotes = true;
+    [SerializeField]
+    bool spawnEvents = true;
 
     
     void Start()
@@ -37,6 +44,8 @@ public class RhythmSystem : MonoBehaviour
         // Load note definitions
         noteDefs = LoadDefJson("abc");
         noteDefs.ConstructDict();
+
+        ch = GetComponent<CorridorHandler>();
 
         // Initialize properties used by the rhythm system
         num_beats = song.bpm * song.length_min + (song.bpm * (song.length_sec / 60));
@@ -61,16 +70,17 @@ public class RhythmSystem : MonoBehaviour
     }
 
     void RunRhythmSystem() {
+
          current_time = (float)(AudioSettings.dspTime - start_time);
             current_time_in_beats = current_time / sec_per_beat;
-            if(song.events.Count > 0) {
+            if(song.events.Count > 0 && spawnEvents) {
                 Beat current_beat = song.events[0];
                 if(current_beat.beat_num < current_time_in_beats + threshold) {
-                    ChangeColor();
+                    EventCorridorDecision(current_beat);
                     song.events.RemoveAt(0);
                 }
             }
-            if(song.notes.Count > 0) {
+            if(song.notes.Count > 0 && spawnNotes) {
                 Beat current_note = song.notes[0];
                 if((current_note.beat_num - noteDefs.beats) < current_time_in_beats + threshold) {
                     // Debug.Log(current_note.beat_num - num_beats_diff);
@@ -131,6 +141,15 @@ public class RhythmSystem : MonoBehaviour
         moveInTime.Setup(sec_per_beat * noteDefs.beats, end, anim, inWorldObjects);
     }
 
+    void EventCorridorDecision(Beat beat) {
+        if(beat.type.Contains("start")) {
+            ch.StartCorridor(noteDefs.z, .5f, beat.type);
+        }
+        if(beat.type == "stop_tunnel") {
+            ch.StopCorridor();
+        }
+    }
+
     void ChangeColor() {
         float randRed = Random.Range(0.0f, 1.0f);
         float randBlue = Random.Range(0.0f, 1.0f);
@@ -155,6 +174,7 @@ public class RhythmSystem : MonoBehaviour
             } 
             // rb.AddForce(Random.onUnitSphere * 1000);
         }
+        ch.Explode();
     }
 
 }

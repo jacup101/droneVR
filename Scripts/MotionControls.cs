@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class MotionControls : MonoBehaviour
 {
@@ -42,6 +42,11 @@ public class MotionControls : MonoBehaviour
         OVRInput.Update();
         Vector3 localLeftPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.LTouch);
         Vector3 localRightPos = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
+
+        if (OVRInput.Get(OVRInput.Button.Start)) {
+            SceneManager.LoadScene("game");
+        }
+      
 
         // Allow some startup time to prevent the object disappearing on Oculus
         // Debug.LogFormat("dronesaber: {0} frame", Time.frameCount);

@@ -5,11 +5,15 @@ using UnityEngine;
 public class CollisionHandler : MonoBehaviour
 {
     // TO be placed in subclass of player
-    Rigidbody rb;
+    HealthSystem health;
+
+    AudioSource hitSound;
     // Start is called before the first frame update
     void Start()
     {
-        rb = transform.parent.GetComponent<Rigidbody>();
+        health = transform.parent.GetComponent<HealthSystem>();
+        hitSound = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -19,9 +23,9 @@ public class CollisionHandler : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        rb.useGravity = true;
-        rb.AddRelativeForce(Random.onUnitSphere * 5);
-        transform.parent.GetComponent<RhythmSystem>().Die();
-        transform.parent.GetComponent<MotionControls>().Die();
+        health.Damage();
+        if(health.GetHealth() > 0) {
+            hitSound.Play();
+        }
     }
 }
