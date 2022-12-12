@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TempMotionControlsRight : MonoBehaviour
 {
+    // Temporary class, kept for archival purposes. This is not used in the game
     Vector3 oldPos = new Vector3(0f, 0f, 0f);
     
 
