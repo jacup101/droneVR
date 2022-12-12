@@ -191,6 +191,70 @@
         {
             "beat_num": 140,
             "type": "start_tunnel_random"
+        },
+        {
+            "beat_num": 142,
+            "type": "start_tunnel_rotating_left_random"
+        },
+        {
+            "beat_num": 144,
+            "type": "start_tunnel_random"
+        },
+        {
+            "beat_num": 146,
+            "type": "start_tunnel_rotating_right_random"
+        },
+        {
+            "beat_num": 148,
+            "type": "start_tunnel_random"
+        },
+        {
+            "beat_num": 154,
+            "type": "start_accent"
+        },
+        {
+            "beat_num": 156,
+            "type": "start_accent_randrot"
+        },
+        {
+            "beat_num": 168,
+            "type": "start_tunnel_random"
+        },
+        {
+            "beat_num": 172,
+            "type": "start_tunnel_color_random"
+        },
+        {
+            "beat_num": 180,
+            "type": "start_accent_color_randrot"
+        },
+        {
+            "beat_num": 186,
+            "type": "start_tunnel_color"
+        },
+        {
+            "beat_num": 188,
+            "type": "start_tunnel_color_random"
+        },
+        {
+            "beat_num": 190,
+            "type": "start_tunnel_color_rotating_left_random"
+        },
+        {
+            "beat_num": 192,
+            "type": "start_tunnel_color_random"
+        },
+        {
+            "beat_num": 194,
+            "type": "start_tunnel_color_rotating_right_random"
+        },
+        {
+            "beat_num": 196,
+            "type": "start_tunnel_color_random"
+        },
+        {
+            "beat_num": 205,
+            "type": "reset"
         }
     ],
     "notes": [
@@ -216,11 +280,11 @@
         },
         {
             "beat_num": 6,
-            "type": "left"
+            "type": "moving_horizontal"
         },
         {
             "beat_num": 6.75,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 7.75,
@@ -264,7 +328,7 @@
         },
         {
             "beat_num": 15.5,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 15.75,
@@ -308,7 +372,7 @@
         },
         {
             "beat_num": 20,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 20.25,
@@ -352,7 +416,7 @@
         },
         {
             "beat_num": 22.75,
-            "type": "down"
+            "type": "health_ring"
         },
         {
             "beat_num": 23.0,
@@ -392,7 +456,7 @@
         },
         {
             "beat_num": 25.25,
-            "type": "down"
+            "type": "death_down"
         },
         {
             "beat_num": 25.5,
@@ -476,7 +540,7 @@
         },
         {
             "beat_num": 35,
-            "type": "left"
+            "type": "death_left"
         },
         {
             "beat_num": 35.25,
@@ -548,7 +612,7 @@
         },
         {
             "beat_num": 42.5,
-            "type": "right"
+            "type": "death_right"
         },
         {
             "beat_num": 42.75,
@@ -636,7 +700,7 @@
         },
         {
             "beat_num": 53.25,
-            "type": "down"
+            "type": "death_down"
         },
         {
             "beat_num": 54,
@@ -680,7 +744,7 @@
         },
         {
             "beat_num": 58.75,
-            "type": "mid"
+            "type": "health_ring"
         },
         {
             "beat_num": 59.25,
@@ -688,7 +752,7 @@
         },
         {
             "beat_num": 59.5,
-            "type": "right"
+            "type": "death_right"
         },
         {
             "beat_num": 60,
@@ -736,11 +800,11 @@
         },
         {
             "beat_num": 65,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 66,
-            "type": "right"
+            "type": "death_ring"
         },
         {
             "beat_num": 66.25,
@@ -756,7 +820,7 @@
         },
         {
             "beat_num": 67.75,
-            "type": "down"
+            "type": "death_down"
         },
         {
             "beat_num": 68,
@@ -796,7 +860,7 @@
         },
         {
             "beat_num": 76,
-            "type": "left"
+            "type": "death_left"
         },
         {
             "beat_num": 76.5,
@@ -828,7 +892,7 @@
         },
         {
             "beat_num": 80.5,
-            "type": "left"
+            "type": "health"
         },
         {
             "beat_num": 81,
@@ -836,7 +900,7 @@
         },
         {
             "beat_num": 82,
-            "type": "centerhole"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 83,
@@ -884,7 +948,7 @@
         },
         {
             "beat_num": 90.5,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 91,
@@ -904,7 +968,7 @@
         },
         {
             "beat_num": 93.5,
-            "type": "up"
+            "type": "death_up"
         },
         {
             "beat_num": 94.5,
@@ -916,7 +980,7 @@
         },
         {
             "beat_num": 95.5,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 95.75,
@@ -928,7 +992,7 @@
         },
         {
             "beat_num": 96.75,
-            "type": "up"
+            "type": "death_ring"
         },
         {
             "beat_num": 97,
@@ -976,7 +1040,7 @@
         },
         {
             "beat_num": 100.25,
-            "type": "down"
+            "type": "death_down"
         },
         {
             "beat_num": 100.5,
@@ -1024,11 +1088,11 @@
         },
         {
             "beat_num": 103.5,
-            "type": "right"
+            "type": "death_right"
         },
         {
             "beat_num": 103.75,
-            "type": "up"
+            "type": "health"
         },
         {
             "beat_num": 104.0,
@@ -1076,7 +1140,7 @@
         },
         {
             "beat_num": 106.75,
-            "type": "up"
+            "type": "death_up"
         },
         {
             "beat_num": 107.0,
@@ -1112,7 +1176,7 @@
         },
         {
             "beat_num": 109.0,
-            "type": "left"
+            "type": "death_left"
         },
         {
             "beat_num": 109.5,
@@ -1156,7 +1220,7 @@
         },
         {
             "beat_num": 116.75,
-            "type": "up"
+            "type": "health"
         },
         {
             "beat_num": 117.5,
@@ -1164,7 +1228,7 @@
         },
         {
             "beat_num": 118,
-            "type": "centerhole"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 118.75,
@@ -1172,7 +1236,7 @@
         },
         {
             "beat_num": 119.5,
-            "type": "centerhole"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 120.25,
@@ -1304,7 +1368,7 @@
         },
         {
             "beat_num": 138,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 138.25,
@@ -1436,7 +1500,7 @@
         },
         {
             "beat_num": 150.25,
-            "type": "mid"
+            "type": "death_horizontal"
         },
         {
             "beat_num": 150.5,
@@ -1452,11 +1516,11 @@
         },
         {
             "beat_num": 152.25,
-            "type": "up"
+            "type": "vbar"
         },
         {
             "beat_num": 153.25,
-            "type": "up"
+            "type": "hbar"
         },
         {
             "beat_num": 154,
@@ -1472,7 +1536,7 @@
         },
         {
             "beat_num": 156,
-            "type": "up"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 156.25,
@@ -1484,11 +1548,11 @@
         },
         {
             "beat_num": 157,
-            "type": "down"
+            "type": "health"
         },
         {
             "beat_num": 157.25,
-            "type": "down"
+            "type": "vbar"
         },
         {
             "beat_num": 158,
@@ -1500,7 +1564,7 @@
         },
         {
             "beat_num": 158.5,
-            "type": "left"
+            "type": "hbar"
         },
         {
             "beat_num": 159,
@@ -1512,7 +1576,7 @@
         },
         {
             "beat_num": 159.5,
-            "type": "mid"
+            "type": "death_ring"
         },
         {
             "beat_num": 160,
@@ -1528,11 +1592,11 @@
         },
         {
             "beat_num": 161,
-            "type": "up"
+            "type": "health"
         },
         {
             "beat_num": 161.25,
-            "type": "up"
+            "type": "hbar"
         },
         {
             "beat_num": 162,
@@ -1540,11 +1604,11 @@
         },
         {
             "beat_num": 162.25,
-            "type": "down"
+            "type": "health_ring"
         },
         {
             "beat_num": 163,
-            "type": "up"
+            "type": "centerhole"
         },
         {
             "beat_num": 163.25,
@@ -1560,19 +1624,19 @@
         },
         {
             "beat_num": 164.5,
-            "type": "up"
+            "type": "vbar"
         },
         {
             "beat_num": 164.75,
-            "type": "down"
+            "type": "hbar"
         },
         {
             "beat_num": 165,
-            "type": "left"
+            "type": "hbar"
         },
         {
             "beat_num": 165.25,
-            "type": "mid"
+            "type": "down"
         },
         {
             "beat_num": 166,
@@ -1580,15 +1644,15 @@
         },
         {
             "beat_num": 166.25,
-            "type": "up"
+            "type": "left"
         },
         {
             "beat_num": 167.25,
-            "type": "up"
+            "type": "mid"
         },
         {
             "beat_num": 167.5,
-            "type": "left"
+            "type": "spinbar"
         },
         {
             "beat_num": 168,
@@ -1600,7 +1664,7 @@
         },
         {
             "beat_num": 168.5,
-            "type": "mid"
+            "type": "moving_horizontal"
         },
         {
             "beat_num": 169,
@@ -1608,7 +1672,7 @@
         },
         {
             "beat_num": 169.25,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 170,
@@ -1620,15 +1684,15 @@
         },
         {
             "beat_num": 170.5,
-            "type": "mid"
+            "type": "drbar"
         },
         {
             "beat_num": 171,
-            "type": "mid"
+            "type": "death"
         },
         {
             "beat_num": 171.25,
-            "type": "mid"
+            "type": "hbar"
         },
         {
             "beat_num": 171.5,
@@ -1640,31 +1704,31 @@
         },
         {
             "beat_num": 172.25,
-            "type": "right"
+            "type": "health_ring"
         },
         {
             "beat_num": 172.75,
-            "type": "down"
+            "type": "spinbar"
         },
         {
             "beat_num": 173.5,
-            "type": "mid"
+            "type": "up"
         },
         {
             "beat_num": 173.75,
-            "type": "mid"
-        },
-        {
-            "beat_num": 174.5,
-            "type": "mid"
-        },
-        {
-            "beat_num": 175,
             "type": "left"
         },
         {
+            "beat_num": 174.5,
+            "type": "down"
+        },
+        {
+            "beat_num": 175,
+            "type": "hbar"
+        },
+        {
             "beat_num": 175.25,
-            "type": "mid"
+            "type": "vbar"
         },
         {
             "beat_num": 175.5,
@@ -1680,15 +1744,15 @@
         },
         {
             "beat_num": 176.25,
-            "type": "right"
+            "type": "centerhole"
         },
         {
             "beat_num": 176.75,
-            "type": "left"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 177,
-            "type": "down"
+            "type": "centerhole"
         },
         {
             "beat_num": 177.25,
@@ -1700,7 +1764,7 @@
         },
         {
             "beat_num": 178,
-            "type": "mid"
+            "type": "hbar"
         },
         {
             "beat_num": 178.25,
@@ -1708,19 +1772,19 @@
         },
         {
             "beat_num": 178.5,
-            "type": "mid"
+            "type": "left"
         },
         {
             "beat_num": 178.75,
-            "type": "right"
+            "type": "hbar"
         },
         {
             "beat_num": 179.0,
-            "type": "up"
+            "type": "health_horizontal"
         },
         {
             "beat_num": 179.25,
-            "type": "mid"
+            "type": "death_horizontal"
         },
         {
             "beat_num": 179.5,
@@ -1732,15 +1796,15 @@
         },
         {
             "beat_num": 180,
-            "type": "mid"
+            "type": "hbar"
         },
         {
             "beat_num": 180.25,
-            "type": "up"
+            "type": "vbar"
         },
         {
             "beat_num": 180.5,
-            "type": "mid"
+            "type": "vbar"
         },
         {
             "beat_num": 180.75,
@@ -1748,7 +1812,7 @@
         },
         {
             "beat_num": 181.0,
-            "type": "mid"
+            "type": "right"
         },
         {
             "beat_num": 181.25,
@@ -1760,11 +1824,11 @@
         },
         {
             "beat_num": 181.75,
-            "type": "up"
+            "type": "spinbar"
         },
         {
             "beat_num": 182.0,
-            "type": "right"
+            "type": "vbar"
         },
         {
             "beat_num": 182.25,
@@ -1776,7 +1840,7 @@
         },
         {
             "beat_num": 182.75,
-            "type": "up"
+            "type": "dlbar"
         },
         {
             "beat_num": 183.0,
@@ -1792,7 +1856,7 @@
         },
         {
             "beat_num": 183.75,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 184.0,
@@ -1808,23 +1872,23 @@
         },
         {
             "beat_num": 184.75,
-            "type": "mid"
+            "type": "hbar"
         },
         {
             "beat_num": 185.0,
-            "type": "mid"
+            "type": "vbar"
         },
         {
             "beat_num": 185.25,
-            "type": "right"
+            "type": "hbar"
         },
         {
             "beat_num": 185.5,
-            "type": "mid"
+            "type": "right"
         },
         {
             "beat_num": 185.75,
-            "type": "mid"
+            "type": "right"
         },
         {
             "beat_num": 186.0,
@@ -1836,11 +1900,11 @@
         },
         {
             "beat_num": 186.5,
-            "type": "left"
+            "type": "centerhole"
         },
         {
             "beat_num": 186.75,
-            "type": "right"
+            "type": "health"
         },
         {
             "beat_num": 187.0,
@@ -1848,7 +1912,7 @@
         },
         {
             "beat_num": 187.25,
-            "type": "right"
+            "type": "up"
         },
         {
             "beat_num": 187.5,
@@ -1856,7 +1920,7 @@
         },
         {
             "beat_num": 187.75,
-            "type": "up"
+            "type": "hbar"
         },
         {
             "beat_num": 188.0,
@@ -1864,11 +1928,11 @@
         },
         {
             "beat_num": 188.25,
-            "type": "mid"
+            "type": "vbar"
         },
         {
             "beat_num": 188.5,
-            "type": "mid"
+            "type": "moving_horizontal"
         },
         {
             "beat_num": 188.75,
@@ -1880,7 +1944,7 @@
         },
         {
             "beat_num": 189.25,
-            "type": "down"
+            "type": "spinbar"
         },
         {
             "beat_num": 189.5,
@@ -1888,31 +1952,31 @@
         },
         {
             "beat_num": 189.75,
-            "type": "mid"
+            "type": "hbar"
         },
         {
             "beat_num": 190.0,
-            "type": "mid"
+            "type": "spinbar"
         },
         {
             "beat_num": 190.25,
-            "type": "mid"
+            "type": "up"
         },
         {
             "beat_num": 190.5,
-            "type": "mid"
+            "type": "left"
         },
         {
             "beat_num": 191,
-            "type": "right"
+            "type": "vbar"
         },
         {
             "beat_num": 191.5,
-            "type": "mid"
+            "type": "right"
         },
         {
             "beat_num": 192,
-            "type": "right"
+            "type": "down"
         },
         {
             "beat_num": 192.5,
@@ -1920,19 +1984,19 @@
         },
         {
             "beat_num": 193,
-            "type": "left"
+            "type": "centerhole"
         },
         {
             "beat_num": 194,
-            "type": "down"
+            "type": "death_centerhole"
         },
         {
             "beat_num": 194.5,
-            "type": "mid"
+            "type": "health"
         },
         {
             "beat_num": 195,
-            "type": "mid"
+            "type": "centerhole"
         },
         {
             "beat_num": 195.5,
@@ -1940,7 +2004,7 @@
         },
         {
             "beat_num": 196,
-            "type": "down"
+            "type": "up"
         },
         {
             "beat_num": 197,
@@ -1952,15 +2016,15 @@
         },
         {
             "beat_num": 198,
-            "type": "left"
+            "type": "hbar"
         },
         {
             "beat_num": 198.5,
-            "type": "mid"
+            "type": "vbar"
         },
         {
             "beat_num": 199,
-            "type": "right"
+            "type": "hbar"
         },
         {
             "beat_num": 200,

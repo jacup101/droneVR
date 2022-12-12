@@ -10,8 +10,9 @@ from threading import Thread
 
 
 # 140 - ABC
-title = "abc"
-bpm = 140
+# 150 - pixel galaxy
+title = "pixel_galaxy"
+bpm = 150
 
 beat_time = 60 / bpm
 currBeat = 0

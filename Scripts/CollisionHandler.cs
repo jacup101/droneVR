@@ -1,31 +1,45 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
 {
-    // TO be placed in subclass of player
-    HealthSystem health;
+    // To be placed in subclass of player
+    // Handles collision
+    // Health System reference, to damage player when collisions happen
+    public HealthSystem health;
+    // Audio Source References to play sound
+    public AudioSource hitSound;
+    public AudioSource healthSound;
+    public AudioSource deathSound; 
 
-    AudioSource hitSound;
-    // Start is called before the first frame update
-    void Start()
-    {
-        health = transform.parent.GetComponent<HealthSystem>();
-        hitSound = GetComponent<AudioSource>();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // On Trigger Enter
+    // Called when a note enters the "trigger" hitbox of the player
+    // Figures out appropriate action to take based on the note type
+    // Damages player however best fits (or heals them)
+    // Plays appropriate sound to provide audible feedback
     private void OnTriggerEnter(Collider other) {
-        health.Damage();
-        if(health.GetHealth() > 0) {
-            hitSound.Play();
+        if(other.gameObject.name.Contains("Health")) {
+            bool result = health.Restore();
+            if(result) {
+                healthSound.Play();
+            }
+        } 
+        else if(other.gameObject.name.Contains("Death")) {
+            bool result = health.Kill();
+            if(result) {
+                deathSound.Play();
+            }
+        } else {
+            bool result = health.Damage();
+            if(health.GetHealth() > 0 && !health.IsInvulnerable()) {
+                hitSound.Play();
+            }
+            if(health.GetHealth() == 0 && result) {
+                deathSound.Play();
+            }
         }
+    }
+    // For resetting the game, stop playing the death sound
+    public void Reset() {
+        deathSound.Stop();
     }
 }

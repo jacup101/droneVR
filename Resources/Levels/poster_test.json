@@ -1,0 +1,30 @@
+{
+    "name": "poster_test",
+    "bpm": 30,
+    "lenth_min": 2,
+    "length_sec": 32,
+    "events": [
+        {
+            "beat_num": 0,
+            "type": "start_tunnel_random"
+        }
+    ],
+    "notes": [
+        {
+            "beat_num": 4,
+            "type": "test_cube"
+        },
+        {
+            "beat_num": 8,
+            "type": "test_cube"
+        },
+        {
+            "beat_num": 12,
+            "type": "test_health"
+        },
+        {
+            "beat_num": 12,
+            "type": "test_death"
+        }
+    ]
+}

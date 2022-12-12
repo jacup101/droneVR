@@ -1,0 +1,41 @@
+{
+    "definitions": "0 - Note, 1 - Center Hole, 2 - Horizontal Bar, 3 - Vertical Bar, 4 - Diag Bar L, 5 - Diag Bar R, 6 - Health, 7 - Health Ring, 8 - Death, 9 - Death Ring, 10 - Death Center Hole",
+    "coord_definitions": "-1 - lower limit, 0 - random, 1 - upper limit, 2 - mid",
+    "limits": [
+        -2,
+        2,
+        -2,
+        2
+    ],
+    "z": 50,
+    "distance": -45,
+    "beats": 4,
+    "animTypes": [
+        "rotateX",
+        "rotateZ",
+        "rotateXZ"
+    ],
+    "types": [
+        {
+            "type": "test_cube",
+            "index": 0,
+            "x": 2,
+            "y": 2,
+            "anim": "random"
+        },
+        {
+            "type": "test_health",
+            "index": 6,
+            "x": 2,
+            "y": 1,
+            "anim": "random"
+        },
+        {
+            "type": "test_death",
+            "index": 8,
+            "x": 2,
+            "y": -1,
+            "anim": "random"
+        }
+    ]
+}
