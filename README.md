@@ -1,6 +1,24 @@
 # Offbeat VR
 Hello, welcome to Offbeat VR, my senior comprehensive project, currently completed for the Fall 2022 Semester. Still plenty more to go for this game, but it is in a good prototype state right now :)
 
+Offbeat is a rhythm game where, instead of hitting the notes, you avoid them. This creates a bullet-hell style game that is difficult, but fun and immersive for players. For more information on the game and its development process, check out the corresponding paper written about it [here](https://github.com/jacup101/comps).
+
+![picture of offbeat](https://keep.google.com/u/0/media/v2/1-gvBJBOqwaCV-dIfWCVa7YkiDm0Sh3_F2csxD3mkK1KPhzseIMT_jJVx-Oz1u9g/1Jf-OvY5qnktUgVGI8ZQyoquwGQ59ikRcU5iZc18pi3cQh5J6v_y0fsWpn_wBJiU?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp)
+
+# Technical Features
+Offbeat is made using Unity and developed for the Meta Quest 2 platform using the Oculus SDK integration. The game is split into several different systems, which work together to run the different components of the game. This separation keeps the codebase organization and also allows for customization of levels, since systems can be turned on or off at will. Such systems include:
+- **Rhythm System**: handles the spawning of notes and visual events in time with the music
+- **Corridor Handler**: responsible for spawning the corridor which surrounds the player, doing so in an efficient way
+- **Collision Predictor**: predicts when the player is on a collision path, and notifies the player
+- **Health System**: keeps track of the player's health, and notifies them via a warning sign in the HUD
+- **Collision System**: detects when the player collides with a note, and works with health system to take appropriate action
+- **Motion Controls**: tracks the position of the controllers in relation to the headset, and uses deltas to move the player around
+- **Controller Controls**: also runs the barrel roll.
+
+Although this not a full diagram documenting every process of the game, the general flow of how the different systems interact with each other can be found below:
+![design diagram of offbeat](https://keep.google.com/u/0/media/v2/1Xg91ArOlIH5RY04cOkwp9sd3Xdj8p0siSPdXlQl0z8dvQfkOdK1_JI6LvCYA/184_26866-iGvMQamx9CVXoWXVhCAU73tEeLrf2wFg7FczsB3UHN-PscRSdCHVgc?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp)
+
+
 # Repro Instructions
 This game was made using Unity, and built specfically for Oculus Quest 2. Reproduction instructions found below are meant for the Quest 2 platform, but can technically be used to build for PCVR. However, please note that there are known bugs with PCVR that currently are not planned to be fixed.
 
@@ -14,3 +32,4 @@ This game was made using Unity, and built specfically for Oculus Quest 2. Reprod
 # Other Notes
 - There is a lot of code in this repo not written by me, which comes from the Oculus Integration SDK. Code written by me can be found in the Scripts and Tools directories. There are also many directories containing work done by me which is not code.
 - As mentioned above, there are known bugs running the game with PCVR
+- Level design is possible, but not streamlined at the moment. Further work will be done on this soon.
