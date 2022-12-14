@@ -3,7 +3,7 @@ Hello, welcome to Offbeat VR, my senior comprehensive project, currently complet
 
 Offbeat is a rhythm game where, instead of hitting the notes, you avoid them. This creates a bullet-hell style game that is difficult, but fun and immersive for players. For more information on the game and its development process, check out the corresponding paper written about it [here](https://github.com/jacup101/comps).
 
-![picture of offbeat](https://keep.google.com/u/0/media/v2/1-gvBJBOqwaCV-dIfWCVa7YkiDm0Sh3_F2csxD3mkK1KPhzseIMT_jJVx-Oz1u9g/1Jf-OvY5qnktUgVGI8ZQyoquwGQ59ikRcU5iZc18pi3cQh5J6v_y0fsWpn_wBJiU?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp)
+![picture of offbeat](https://github.com/jacup101/droneVR/blob/main/Readme%20Images/game.png)
 
 # Technical Features
 Offbeat is made using Unity and developed for the Meta Quest 2 platform using the Oculus SDK integration. The game is split into several different systems, which work together to run the different components of the game. This separation keeps the codebase organization and also allows for customization of levels, since systems can be turned on or off at will. Such systems include:
@@ -16,7 +16,7 @@ Offbeat is made using Unity and developed for the Meta Quest 2 platform using th
 - **Controller Controls**: also runs the barrel roll.
 
 Although this not a full diagram documenting every process of the game, the general flow of how the different systems interact with each other can be found below:
-![design diagram of offbeat](https://keep.google.com/u/0/media/v2/1Xg91ArOlIH5RY04cOkwp9sd3Xdj8p0siSPdXlQl0z8dvQfkOdK1_JI6LvCYA/184_26866-iGvMQamx9CVXoWXVhCAU73tEeLrf2wFg7FczsB3UHN-PscRSdCHVgc?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp)
+![design diagram of offbeat](https://github.com/jacup101/droneVR/blob/main/Readme%20Images/design.jpg)
 
 
 # Repro Instructions
