@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5012462341515045657}
   - component: {fileID: 5012462341515045661}
+  - component: {fileID: 1501936587936820663}
   m_Layer: 0
   m_Name: Health Ring
   m_TagString: Untagged
@@ -246,16 +247,38 @@ MonoBehaviour:
   timer: 0
   percent: 0
   speed: 0.5
+  movementSpeed: 0.1
   start_point: {x: 0, y: 0, z: 0}
   end_point: {x: 0, y: 0, z: 0}
   diff: {x: 0, y: 0, z: 0}
   moving: 0
   transformed: 0
+  paused: 0
   spawnAnim: 1
   rotationSpeed: 1
   totRot: 0
-  allObjects: []
   animType: 
+  allObjects: []
+  modifier: 1
+  limits: 
+--- !u!114 &1501936587936820663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012462341515045660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec3617a59d62c948979740f186e2035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  length: 1
+  components:
+  - {fileID: 8358692208609150801}
+  - {fileID: 5114717133383074611}
+  - {fileID: 212939107954497370}
+  - {fileID: 4206731907157526184}
 --- !u!1 &5114717133383074611
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,7 +305,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5114717133383074611}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0

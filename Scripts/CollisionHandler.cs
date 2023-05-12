@@ -6,10 +6,14 @@ public class CollisionHandler : MonoBehaviour
     // Handles collision
     // Health System reference, to damage player when collisions happen
     public HealthSystem health;
+    // Crystal Heart SYstem reference
+    public CrystalHeart crystalHeart;
     // Audio Source References to play sound
     public AudioSource hitSound;
     public AudioSource healthSound;
-    public AudioSource deathSound; 
+    public AudioSource deathSound;
+
+    public AudioSource crystalSound; 
 
     // On Trigger Enter
     // Called when a note enters the "trigger" hitbox of the player
@@ -22,7 +26,10 @@ public class CollisionHandler : MonoBehaviour
             if(result) {
                 healthSound.Play();
             }
-        } 
+        } else if(other.gameObject.name.Contains("Crystal")) {
+            crystalHeart.AddCrystal();
+            crystalSound.Play();
+        }
         else if(other.gameObject.name.Contains("Death")) {
             bool result = health.Kill();
             if(result) {

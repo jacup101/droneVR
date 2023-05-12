@@ -35,11 +35,16 @@ public class RhythmSystem : MonoBehaviour
     bool simpleVisual = false;
     // Offset for when the rhythm system is paused, to account for elapsed time where the game is not actually running
     float pauseOffset;
+    // Level System
+    public LevelCollector lc;
+    // Score System
+    public ScoreSystem ss;
     void Start()
     {
+        lc.LoadLevels();
         // If run in the Unity editor, jump straight into the song defined in dev_level instead of loading main menu (since there's no way to interact with the menu when not in VR)
         #if UNITY_EDITOR
-        string dev_level = "abc";
+        string dev_level = "test_length";
         BeginLevel(dev_level);
         #endif
     }
@@ -106,34 +111,24 @@ public class RhythmSystem : MonoBehaviour
             Beat current_note = song.notes[0];
             // If a note is spawned at current beat, handle it and then remove from queue
             if((current_note.beat_num - noteDefs.beats) < current_time_in_beats + threshold) {
-                SpawnObject(current_note.type);
+                SpawnObject(current_note.type, current_note.beat_length);
                 song.notes.RemoveAt(0);
             }
         }
     }
     // Loads the level json for a level
     Song LoadSongJson(string song_name) {
-        // Load the json file and put it into a string
-        var json_obj = Resources.Load<TextAsset>("Levels/" + song_name);
-        string json_string = json_obj.text;
-        // Debug.Log(json_string);
-        // Use Unity's JSON serialization to convert from a string to a Song instance
-        Song my_song = JsonUtility.FromJson<Song>(json_string);
-        return my_song;
+        Level lvl = lc.GetLevel(song_name);
+        return lvl.LoadLevelJSON();
     }
     // Loads the definition json for a level
     NoteDefinition LoadDefJson(string loc) {
-        // Load the json file and put it into a string
-        var json_obj = Resources.Load<TextAsset>("Definitions/" + loc);
-        string json_string = json_obj.text;
-        // Debug.Log(json_string);
-        // Use Unity's JSON serialization to convert from a string to a NoteDefinition instance
-        NoteDefinition definition = JsonUtility.FromJson<NoteDefinition>(json_string);
-        return definition;
+        Level lvl = lc.GetLevel(loc);
+        return lvl.LoadDefinitionJSON();
     }
     // Spawns an object at the given position with the desired properties.
     // Note that this uses NoteDefinition, however, this method can not be placed in that class as it is not a monobehaviour
-    void SpawnObject(string property) {
+    void SpawnObject(string property, float beat_length) {
         // Grab the appropriate note type from the definitions
         // Note that it is assumed levels are defined correctly
         NoteType spawn = noteDefs.noteTypeDict[property];
@@ -147,7 +142,7 @@ public class RhythmSystem : MonoBehaviour
         if(simpleVisual)
             animType = "none";
             // Spawn the Object
-        SpawnObject(new Vector3(x, y, noteDefs.z), new Vector3(x, y, noteDefs.z + noteDefs.distance), animType,prefabs[spawn.index]);
+        SpawnObject(new Vector3(x, y, noteDefs.z), new Vector3(x, y, noteDefs.z + noteDefs.distance), beat_length, animType, prefabs[spawn.index]);
     }
     // Converts the note definition coordinate to an in game coordinate, based on the limits provided
     float GetCoordinate(int modifier, int min, int max) {
@@ -164,23 +159,28 @@ public class RhythmSystem : MonoBehaviour
         return 0;
     }
     // Spawns an note in game
-    void SpawnObject(Vector3 start, Vector3 end, string anim, GameObject prefab) {
+    void SpawnObject(Vector3 start, Vector3 end, float beat_length, string anim, GameObject prefab) {
         // Instantiate the note
         GameObject newNote = GameObject.Instantiate(prefab, start, Quaternion.Euler(0, 0, 0));
         // Add the note game object to the list, each game object will take care of removing itself when necessary
         inWorldObjects.Add(newNote);
+        VariableNoteLength varLength = newNote.GetComponent<VariableNoteLength>();
+        if (beat_length != -1) {
+            varLength.Setup(start.z, end.z, noteDefs.beats, beat_length);
+        }
         // Apply the move in time script and set it up with all necessary variables
         MoveInTime moveInTime = newNote.GetComponent<MoveInTime>();
-        moveInTime.Setup(sec_per_beat * noteDefs.beats, end, anim, inWorldObjects, noteDefs.limits);
+        moveInTime.Setup(sec_per_beat * noteDefs.beats, end, anim, inWorldObjects, noteDefs.limits, varLength, ss);
+        
     }
     // Change the corridor based on events
     void EventCorridorDecision(Beat beat) {
         // Start an event, either as defined in the event beat, or as a simple corridor if accessibility mode is enabled (simple visual)
         if(beat.type.Contains("start")) {
             if(!simpleVisual) {
-                ch.StartCorridor(noteDefs.z, .5f, beat.type);
+                ch.HandleEvent(noteDefs.z, .5f, beat.type);
             } else {
-                ch.StartCorridor(noteDefs.z, .5f, "start_tunnel_random");
+                ch.HandleEvent(noteDefs.z, .5f, "start_tunnel_random");
             }
         }
         // Stop the corridor

@@ -1,0 +1,110 @@
+{
+    "name": "poster_test",
+    "bpm": 100,
+    "lenth_min": 2,
+    "length_sec": 32,
+    "events": [
+        {
+            "beat_num": 0,
+            "type": "start_tunnel_random"
+        }
+    ],
+    "notes": [
+        {
+            "beat_num": 5,
+            "type": "death_ring_variable",
+            "beat_length": 3
+        },
+        {
+            "beat_num": 5,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 6,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 6,
+            "type": "health_ring_variable",
+            "beat_length": 2
+        },
+        {
+            "beat_num": 7,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 8,
+            "type": "crystal_heart"
+        },
+        
+        
+        {
+            "beat_num": 8,
+            "type": "centerhole_variable",
+            "beat_length": 4
+        },
+        {
+            "beat_num": 9,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 9.5,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 10,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 10.5,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 11,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 11.5,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 12,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 12,
+            "type": "crystal_heart"
+        },
+        {
+            "beat_num": 12,
+            "type": "mid"
+        },
+        {
+            "beat_num": 20,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 20,
+            "type": "death_ring_variable",
+            "beat_length": 4
+        },
+        {
+            "beat_num": 23,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 24,
+            "type": "centerhole"
+        },
+        {
+            "beat_num": 24,
+            "type": "left_variable",
+            "beat_length": 4
+        },
+        {
+            "beat_num": 24,
+            "type": "right_variable",
+            "beat_length": 3
+        }
+    ]
+}

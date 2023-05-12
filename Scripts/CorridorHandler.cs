@@ -103,6 +103,30 @@ public class CorridorHandler : MonoBehaviour
         SpawnCorridor();
         this.spawning = true;
     }
+    public void HandleEvent(float zstart, float speed, string type) {
+        if(this.spawning) {
+            ChangeCorridor(type);
+        } else {
+            StartCorridor(zstart, speed, type);
+        }
+    }
+    public void ChangeCorridor(string type) {
+        this.type = type;
+        // Assign the prefab
+        if(type.Contains("tunnel")) {
+            this.prefabIndex = 0;
+        }
+        if(type.Contains("accent")) {
+            this.prefabIndex = 1;
+        }
+        // Assign the appropriate rotation direction
+        if(type.Contains("left")) {
+            this.rotationSpeed = -1;
+        }
+        if(type.Contains("right")) {
+            this.rotationSpeed = 1;
+        }
+    }
     // Stop the spawning of corridors
     public void StopCorridor() {
         this.spawning = false;

@@ -1,5 +1,5 @@
 {
-    "definitions": "0 - Note, 1 - Center Hole, 2 - Horizontal Bar, 3 - Vertical Bar, 4 - Diag Bar L, 5 - Diag Bar R, 6 - Health, 7 - Health Ring, 8 - Death, 9 - Death Ring, 10 - Death Center Hole",
+    "definitions": "0 - Note, 1 - Center Hole, 2 - Horizontal Bar, 3 - Vertical Bar, 4 - Diag Bar L, 5 - Diag Bar R, 6 - Health, 7 - Health Ring, 8 - Death, 9 - Death Ring, 10 - Death Center Hole, 11 - Crystal Heart",
     "coord_definitions": "-1 - lower limit, 0 - random, 1 - upper limit, 2 - mid",
     "limits": [
         -2,
@@ -31,6 +31,13 @@
             "anim": "random"
         },
         {
+            "type": "right_variable",
+            "index": 0,
+            "x": 1,
+            "y": 0,
+            "anim": "none"
+        },
+        {
             "type": "down",
             "index": 0,
             "x": 0,
@@ -50,6 +57,13 @@
             "x": 0,
             "y": 0,
             "anim": "random"
+        },
+        {
+            "type": "crystal_heart",
+            "index": 11,
+            "x": 0,
+            "y": 0,
+            "anim": "none"
         },
         {
             "type": "moving_horizontal",

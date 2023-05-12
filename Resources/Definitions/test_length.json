@@ -1,0 +1,237 @@
+{
+    "definitions": "0 - Note, 1 - Center Hole, 2 - Horizontal Bar, 3 - Vertical Bar, 4 - Diag Bar L, 5 - Diag Bar R, 6 - Health, 7 - Health Ring, 8 - Death, 9 - Death Ring, 10 - Death Center Hole",
+    "coord_definitions": "-1 - lower limit, 0 - random, 1 - upper limit, 2 - mid",
+    "limits": [
+        -2,
+        2,
+        -2,
+        2
+    ],
+    "z": 50,
+    "distance": -45,
+    "beats": 4,
+    "animTypes": [
+        "rotateX",
+        "rotateZ",
+        "rotateXZ"
+    ],
+    "types": [
+        {
+            "type": "left",
+            "index": 0,
+            "x": -1,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "left_variable",
+            "index": 0,
+            "x": -1,
+            "y": 0,
+            "anim": "none"
+        },
+        {
+            "type": "right",
+            "index": 0,
+            "x": 1,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "right_variable",
+            "index": 0,
+            "x": 1,
+            "y": 0,
+            "anim": "none"
+        },
+        {
+            "type": "down",
+            "index": 0,
+            "x": 0,
+            "y": -1,
+            "anim": "random"
+        },
+        {
+            "type": "down_variable",
+            "index": 0,
+            "x": 0,
+            "y": -1,
+            "anim": "none"
+        },
+        {
+            "type": "up",
+            "index": 0,
+            "x": 0,
+            "y": 1,
+            "anim": "random"
+        },
+        {
+            "type": "up_variable",
+            "index": 0,
+            "x": 0,
+            "y": 1,
+            "anim": "none"
+        },
+        {
+            "type": "mid",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "moving_horizontal",
+            "index": 0,
+            "x": -1,
+            "y": 0,
+            "anim": "move_right_left"
+        },
+        {
+            "type": "centerhole",
+            "index": 1,
+            "x": 2,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "centerhole_variable",
+            "index": 1,
+            "x": 2,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "crystal_heart",
+            "index": 11,
+            "x": 2,
+            "y": 2,
+            "anim": "random"
+        },
+        {
+            "type": "hbar",
+            "index": 2,
+            "x": 2,
+            "y": 0,
+            "anim": "none"
+        },
+        {
+            "type": "vbar",
+            "index": 3,
+            "x": 0,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "dlbar",
+            "index": 4,
+            "x": 2,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "drbar",
+            "index": 5,
+            "x": 2,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "spinbar",
+            "index": 2,
+            "x": 2,
+            "y": 0,
+            "anim": "rotateZ"
+        },
+        {
+            "type": "health",
+            "index": 6,
+            "x": 0,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "health_ring",
+            "index": 7,
+            "x": 2,
+            "y": 2,
+            "anim": "rotateZ"
+        },
+        {
+            "type": "health_ring_variable",
+            "index": 7,
+            "x": 2,
+            "y": 2,
+            "anim": "rotateZ"
+        },
+        {
+            "type": "health_horizontal",
+            "index": 6,
+            "x": -1,
+            "y": 0,
+            "anim": "move_right_left"
+        },
+        {
+            "type": "death",
+            "index": 8,
+            "x": 0,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "death_ring",
+            "index": 9,
+            "x": 2,
+            "y": 2,
+            "anim": "rotateZ"
+        },
+        {
+            "type": "death_ring_variable",
+            "index": 9,
+            "x": 2,
+            "y": 2,
+            "anim": "rotateZ"
+        },
+        {
+            "type": "death_horizontal",
+            "index": 8,
+            "x": -1,
+            "y": 0,
+            "anim": "move_right_left"
+        },
+        {
+            "type": "death_centerhole",
+            "index": 10,
+            "x": 2,
+            "y": 2,
+            "anim": "none"
+        },
+        {
+            "type": "death_left",
+            "index": 8,
+            "x": -1,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "death_right",
+            "index": 8,
+            "x": 1,
+            "y": 0,
+            "anim": "random"
+        },
+        {
+            "type": "death_down",
+            "index": 8,
+            "x": 0,
+            "y": -1,
+            "anim": "random"
+        },
+        {
+            "type": "death_up",
+            "index": 8,
+            "x": 0,
+            "y": 1,
+            "anim": "random"
+        }
+    ]
+}

@@ -29,6 +29,10 @@ public class MoveInTime : MonoBehaviour {
     public int modifier = 1;
     public List<int> limits;
     // Start is called before the first frame update
+    public VariableNoteLength variableNoteLength;
+    // Score system
+    public ScoreSystem ss;
+
     void Start()
     {
         start_point = transform.position;
@@ -40,7 +44,7 @@ public class MoveInTime : MonoBehaviour {
         if(moving && !paused) {
             // Move the object towards its end point
             if(timer <= seconds) {
-                timer += Time.deltaTime;
+                timer += Time.fixedDeltaTime;
                 percent = timer / seconds;
 
                 transform.position = start_point + diff * percent;
@@ -51,11 +55,16 @@ public class MoveInTime : MonoBehaviour {
                     // Transform();
                     // Curently does nothing, but can be used in the future
                 }
-                transform.position = transform.position + new Vector3(0, 0, -1 * speed);
+                timer += Time.fixedDeltaTime;
+                percent = timer / seconds;
+                transform.position = start_point + diff * percent;
+                Animate();
+                // transform.position = transform.position + new Vector3(0, 0, -1 * speed);
                 // Destroy condition
-                if (transform.position.z < 0) {
+                if (transform.position.z + variableNoteLength.GetInWorldLength() < 0) {
                     allObjects.Remove(gameObject);
                     Destroy(gameObject);
+                    ss.AddScore(1);
                 }
             }
         }
@@ -108,8 +117,8 @@ public class MoveInTime : MonoBehaviour {
         }
         transformed = true;
     }
-    // Sets up all variables required for the ntoe to move in time properly, called upon creation of a note
-    public void Setup(float seconds, Vector3 end_point, string anim, List<GameObject> allObj, List<int> limits) {
+    // Sets up all variables required for the note to move in time properly, called upon creation of a note
+    public void Setup(float seconds, Vector3 end_point, string anim, List<GameObject> allObj, List<int> limits, VariableNoteLength variableNoteLength, ScoreSystem score) {
         this.seconds = seconds;
         this.start_point = transform.position;
         this.end_point = end_point;
@@ -118,6 +127,8 @@ public class MoveInTime : MonoBehaviour {
         this.allObjects = allObj;
         this.animType = anim;
         this.limits = limits;
+        this.variableNoteLength = variableNoteLength;
+        this.ss = score;
     }
     // Pauses movement
     public void Pause() {

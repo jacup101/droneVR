@@ -75,6 +75,22 @@ public class OVRRaycaster : GraphicRaycaster, IPointerEnterHandler
 
 	protected override void Start()
 	{
+        if (pointer == null)
+         {
+             // This OVRRaycaster is probably automatically generated (i.e. dropdown)
+             sortOrder = 1;
+             // Grab the raycast pointer from parent components
+             var parentRaycasters = GetComponentsInParent<OVRRaycaster>();
+             foreach(var raycaster in parentRaycasters)
+             {
+                 if (raycaster != null && raycaster != this && raycaster.pointer != null)
+                 {
+                     pointer = raycaster.pointer;
+                     break;
+                 }
+ 
+             }
+         }
 		if(!canvas.worldCamera)
 		{
 			Debug.Log("Canvas does not have an event camera attached. Attaching OVRCameraRig.centerEyeAnchor as default.");

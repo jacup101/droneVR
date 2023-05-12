@@ -14,6 +14,8 @@ public class ResetSystem : MonoBehaviour
     public HealthSystem hs;
     public CollisionPredictor cp;
     public PauseSystem ps;
+    public CrystalHeart crh;
+    public ScoreSystem ss;
     // Resets the game with a specific level, for when resetting is done from main menu
     public void ResetGame(string level) {
         rs.ResetGame(level);
@@ -36,5 +38,7 @@ public class ResetSystem : MonoBehaviour
         hs.Reset();
         cp.Reset();
         ps.Reset();
+        crh.Reset();
+        ss.Reset();
     }
 }

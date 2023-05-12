@@ -38,6 +38,15 @@ public class NoteDefinition {
         this.limits = limits;
         this.types = types;
     }
+
+    public NoteDefinition(int z, int distance, List<int> limits, List<NoteType> types, int beats, List<string> animTypes) {
+        this.z = z;
+        this.distance = distance;
+        this.limits = limits;
+        this.types = types;
+        this.beats = beats;
+        this.animTypes = animTypes;
+    }
     // Constructs a dictionary of note types, which can be used to spawn new ones
     public void ConstructDict() {
         this.noteTypeDict = new Dictionary<string, NoteType>();

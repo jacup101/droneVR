@@ -31,4 +31,12 @@ public class NoteType {
         this.x = x;
         this.y = y;
     }
+
+    public NoteType(string type, int index, int x, int y, string anim) {
+        this.type = type;
+        this.index = index;
+        this.x = x;
+        this.y = y;
+        this.anim = anim;
+    }
 }

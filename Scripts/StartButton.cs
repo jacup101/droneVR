@@ -15,6 +15,9 @@ public class StartButton : MonoBehaviour
     public RhythmSystem system;
     public MotionControls mc;
 
+    // Game Objects To Set Active
+    public GameObject[] UIObjs;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,7 @@ public class StartButton : MonoBehaviour
         #if UNITY_EDITOR
         canvas.SetActive(false);
         raycast.SetActive(false);
+        SetActive();
         #endif
     }
     // Upon pressing the button, start the game
@@ -31,5 +35,12 @@ public class StartButton : MonoBehaviour
         mc.Unpause();
         canvas.SetActive(false);
         raycast.SetActive(false);
+        SetActive();
+    }
+
+    void SetActive() {
+        foreach(GameObject uiObj in UIObjs) {
+            uiObj.SetActive(true);
+        }
     }
 }

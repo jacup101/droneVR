@@ -61,7 +61,7 @@ public class MotionControls : MonoBehaviour
             Vector2 rightDelta = GetDifference(localRightPos, oldPos[1]);
                     
             // Provides compatibility for playing in Unity editor using keyboard controllers, conditionally compiled
-            #if UNITY_EDITOR
+            /*#if UNITY_EDITOR
             float yin = Input.GetAxis("Vertical");
             float xin = Input.GetAxis("Horizontal");
             leftDelta = new Vector2(xin, yin);
@@ -69,6 +69,8 @@ public class MotionControls : MonoBehaviour
             xspeed = .2f;
             yspeed = .2f;
             #endif 
+            */
+            
             // Figure out what the motion actually translates to into an action
             String actionString = GetAction(rightDelta, leftDelta);
 
